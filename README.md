@@ -1,3 +1,4 @@
+```
 # create module
 go mod init golang_clean_architecture_sample
 # start db
@@ -8,3 +9,4 @@ docker compose rm -s -f -v
 GO_ENV=dev go run .
 # run migrate
 GO_ENV=dev go run migrate/migrate.go
+```
